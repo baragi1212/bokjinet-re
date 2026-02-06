@@ -4,19 +4,16 @@
 본 프로젝트는 기존의 복잡했던 정보 구조를 개편하여, 사용자가 필요한 정보를 직관적으로 탐색할 수 있도록 UI/UX를 재설계한 웹 플랫폼입니다.
 
 ---
-##Link
--바로가기 (web-site) http://abc.co.kr
--기획서 (figma) http://abc.co.kr
--디자인 시안 (figma) http://abc.co.kr
+
+## Link
+-바로가기 (web-site) https://baragi1212.github.io/bokjinet-re/ <br>
+-기획서 (figma) http://abc.co.kr <br>
+-디자인 시안 (figma) https://www.figma.com/design/dpyMRV8t9UDlRsmap3Prr7/%EB%B3%B5%EC%A7%80%EB%84%B7%EB%A6%AC%EB%89%B4%EC%96%BC-%EB%B0%95%EC%83%81%EA%B1%B4?node-id=130-2379&t=JAfrumycc44ZeTHk-1 <br>
 
 ## 📺 프로젝트 미리보기
-| 메인 페이지 |
-| :---: |
-| ![Main](https://private-user-images.githubusercontent.com/256000008/545953342-f48608ef-1c2f-46d7-9721-b138cd4d5b34.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzAzNDU4NzYsIm5iZiI6MTc3MDM0NTU3NiwicGF0aCI6Ii8yNTYwMDAwMDgvNTQ1OTUzMzQyLWY0ODYwOGVmLTFjMmYtNDZkNy05NzIxLWIxMzhjZDRkNWIzNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwNlQwMjM5MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YWY1N2IwNTQyNjEwZWQ5MDk2ODc5NjM2OTAzMTI0M2U4ODY0NDg4MzVkNGMxM2ZkMjFhMjAwZjM3N2M5ZTMzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.JI2O0s-eeHAWIaSUIp_rRHUXVi1HnHhpa4aWh2cd9q4) |
-
-| 반응형 |
-| :---: |
-| ![Main](https://private-user-images.githubusercontent.com/256000008/545953530-ec84426e-d9d1-49c8-8356-373c6ba88336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzAzNDU4ODUsIm5iZiI6MTc3MDM0NTU4NSwicGF0aCI6Ii8yNTYwMDAwMDgvNTQ1OTUzNTMwLWVjODQ0MjZlLWQ5ZDEtNDljOC04MzU2LTM3M2M2YmE4ODMzNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwNlQwMjM5NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iM2I5OGFlMjFjOTI4YjY0M2JhZjlkNTAxNDQyODY0MmRmNmI3ODM2Y2YwMjNlYTc1NTdkYjIxNDQyOTJiYjk2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.mxvJYs096MIUilafg5UfGpPW3iXg7FpNakNleeLSAvY) |
+| 메인 페이지 | 반응형 |
+| :---: | :---: |
+| ![Main](https://private-user-images.githubusercontent.com/256000008/545953342-f48608ef-1c2f-46d7-9721-b138cd4d5b34.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzAzNDU4NzYsIm5iZiI6MTc3MDM0NTU3NiwicGF0aCI6Ii8yNTYwMDAwMDgvNTQ1OTUzMzQyLWY0ODYwOGVmLTFjMmYtNDZkNy05NzIxLWIxMzhjZDRkNWIzNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwNlQwMjM5MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YWY1N2IwNTQyNjEwZWQ5MDk2ODc5NjM2OTAzMTI0M2U4ODY0NDg4MzVkNGMxM2ZkMjFhMjAwZjM3N2M5ZTMzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.JI2O0s-eeHAWIaSUIp_rRHUXVi1HnHhpa4aWh2cd9q4) | ![Main](https://private-user-images.githubusercontent.com/256000008/545953530-ec84426e-d9d1-49c8-8356-373c6ba88336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzAzNDU4ODUsIm5iZiI6MTc3MDM0NTU4NSwicGF0aCI6Ii8yNTYwMDAwMDgvNTQ1OTUzNTMwLWVjODQ0MjZlLWQ5ZDEtNDljOC04MzU2LTM3M2M2YmE4ODMzNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwNlQwMjM5NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iM2I5OGFlMjFjOTI4YjY0M2JhZjlkNTAxNDQyODY0MmRmNmI3ODM2Y2YwMjNlYTc1NTdkYjIxNDQyOTJiYjk2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.mxvJYs096MIUilafg5UfGpPW3iXg7FpNakNleeLSAvY) |
 
 
 ---
