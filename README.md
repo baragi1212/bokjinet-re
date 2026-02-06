@@ -1,4 +1,4 @@
-# 🏛️ 복지 & 문화나눔 정보 통합 플랫폼 
+# 복지 & 문화나눔 정보 통합 플랫폼 
 > **사용자 중심의 구인·구직 정보와 복지 소식을 제공하는 큐레이션 사이트**
 
 본 프로젝트는 기존의 복잡했던 정보 구조를 개편하여, 사용자가 필요한 정보를 직관적으로 탐색할 수 있도록 UI/UX를 재설계한 웹 플랫폼입니다.
@@ -11,7 +11,7 @@
 -기획서 (figma) https://www.figma.com/design/dpyMRV8t9UDlRsmap3Prr7/%EB%B3%B5%EC%A7%80%EB%84%B7%EB%A6%AC%EB%89%B4%EC%96%BC-%EB%B0%95%EC%83%81%EA%B1%B4?node-id=1209-773&t=JAfrumycc44ZeTHk-1 <br>
 -디자인 시안 (figma) https://www.figma.com/design/dpyMRV8t9UDlRsmap3Prr7/%EB%B3%B5%EC%A7%80%EB%84%B7%EB%A6%AC%EB%89%B4%EC%96%BC-%EB%B0%95%EC%83%81%EA%B1%B4?node-id=130-2379&t=JAfrumycc44ZeTHk-1 <br>
 
-## 📺 프로젝트 미리보기
+## 프로젝트 미리보기
 | 리뉴얼 전 페이지 |
 | :---: |
 | ![main](https://private-user-images.githubusercontent.com/256000008/545967560-2ab1748f-01d6-4b15-9db6-0086f2bb5bd3.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzAzNDY3ODIsIm5iZiI6MTc3MDM0NjQ4MiwicGF0aCI6Ii8yNTYwMDAwMDgvNTQ1OTY3NTYwLTJhYjE3NDhmLTAxZDYtNGIxNS05ZGI2LTAwODZmMmJiNWJkMy5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwNlQwMjU0NDJaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iNmYxNTU5Y2E2Yzc1YjBiMDA1ZGQxOWQ2NjUxYzUyMWZhZjI5NjVjZjBmNDFmNzQ1ZWZkMDRjZTQ0ODQ0M2E3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.4yx0Zj69eBA6MvQawQZxdIXue8tjEHFYpQDXTTr_8OY)
@@ -23,25 +23,25 @@
 
 ---
 
-## ✨ 주요 개선 및 기능
+## 주요 개선 및 기능
 
-### 1️⃣ 구인 · 구직 파트 이원화
+### 구인 · 구직 파트 이원화
 * **선택적 노출:** 한 화면에 섞여 있던 구인/구직 정보를 상단 탭으로 분리하여 사용자가 원하는 정보만 골라볼 수 있습니다.
 * **슬라이드 인터랙션:** 수직 나열 방식에서 벗어나 넘겨가며 볼 수 있는 슬라이드 형식을 도입해 정보 밀도를 최적화했습니다.
 
-### 2️⃣ 콘텐츠 집중도 및 완성도 향상
+### 콘텐츠 집중도 및 완성도 향상
 * **불필요 요소 제거:** 제작 중이거나 미사용 중인 빈 영역을 보이지 않게 처리하여 사이트의 마감 상태를 높였습니다.
 * **맥락 중심 재배치:** 복지 뉴스 및 문화나눔 페이지 하단에 있던 관련 없는 콘텐츠를 삭제하여 정보 탐색의 흐름을 개선했습니다.
 
-### 3️⃣ 시각적 정보 결합
+### 시각적 정보 결합
 * **포스터 큐레이션:** 단순 텍스트가 아닌 메인 페이지의 포스터와 상세 정보를 결합하여 시각적 전달력을 극대화했습니다.
 
-### 4️⃣ 푸터(Footer) 최적화
+### 푸터(Footer) 최적화
 * **관련 사이트 정리:** 기존의 어지러웠던 3줄 구성을 1줄로 정렬하였습니다
 
 ---
 
-## 📂 파일 구조 (Project Structure)
+## 파일 구조 (Project Structure)
 각 페이지의 독립성을 유지하면서도 공통 스타일을 효율적으로 관리하도록 설계되었습니다.
 
 ```text
