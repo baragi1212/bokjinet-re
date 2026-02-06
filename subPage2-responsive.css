@@ -1,0 +1,492 @@
+@media (max-width:768px) {
+body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .inner {
+    width: 360px;
+  }
+
+  nav {
+    display: none;
+  }
+/* 헤더 */
+  header {
+    background: #fff;
+  }
+
+  .header-right .login {
+    display: none;
+  }
+  .menu-wrap{
+    width: 100%;
+  }
+  .menu-links {
+    transition:.3s;
+    flex-direction: column;
+    margin-bottom: 0;
+    display: flex;
+    max-height: 0;
+
+    visibility: hidden;
+    opacity: 0;
+  }
+
+
+  .menu-links.active {
+    max-height: 1000px;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .menu-content .menu-accordion{
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 2px 0;
+    margin-right: 20px;
+    border-bottom: 1px solid var(--c-666);
+    color: var(--c-333);
+  }
+
+  .menu-accordion.active{
+    color: var(--c-red-400);
+  }
+  .menu-accordion.active::before {
+    transform: rotate(180deg);
+    color: var(--c-red-400);
+  }
+  .menu-accordion::before {
+    content: '\f078';
+    display: inline-block;
+    position: absolute;
+    font-family: "Font Awesome 7 Free";
+    transition: .3s;
+    right: 40px;
+    font-size: var(--fs-24);
+    color: var(--c-666);
+    font-weight: 900
+  }
+    .breadcrumb{
+    display: none;
+  }
+  /* 메인비주얼  */
+  .visual{
+    height: 600px;
+  }
+  .visual h1{
+    font-size: var(--fs-42);
+  }
+  .visual-text-box p{
+    font-size: var(--fs-20);
+    width: 75%;
+  }
+  .visual-tab-select{
+    display: block;
+  }
+  .visual{
+    background: url(images/subpage2-m-bg.png) no-repeat center;
+    background-size: cover;
+  }
+  .visual-tabs{
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 360px;
+    opacity: 0;
+    visibility: hidden;
+    height: 120px;
+    z-index: 999;
+    box-shadow: 0 0 10px var(--c-black-25);
+    font-size: var(--fs-20);
+    font-weight: var(--fw-800);
+    border-radius: 10px;
+    justify-content: flex-start;
+
+  }
+  .visual-tab-select{
+    background: var(--c-mint-400);
+  }
+  .visual-tabs.active{
+    opacity: 1;
+    visibility: visible;
+  }
+  .visual-tab{
+    border-radius: 20px;
+    font-size: var(--fs-20);
+    height: 40px;
+    width: 360px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0;
+  }
+  .visual-content{
+    height: 40px;
+    position: absolute;
+    width: 360px;
+    bottom: -50px;
+  }
+  
+  /* 메인섹션 */
+  #main2 .region{
+  margin-left: 0;
+  gap: 0;
+}
+  #main2 .region .region-tab{
+  margin-right: 20px;
+}
+  #main3 .region .region-tab{
+  margin-right: 20px;
+}
+#main2 .region span{
+  margin-left: 20px;
+}
+#main3 .region{
+  margin-left: 0;
+  gap: 0;
+}
+  .main h2{
+    font-size: var(--fs-42);
+  }
+  .main-card{
+    width: 100%;
+  }
+  .card-tab-select{
+    border: 1px solid var(--c-mint-400);
+    display: block;
+    flex: 1;
+    text-align: center;
+    height: 40px;
+    border-radius: 20px;
+        font-size: var(--fs-18);
+    font-weight: var(--fw-400);
+    text-align: center;
+    line-height: 40px;
+    color: var(--c-333);
+    color: var(--c-mint-400);
+    margin-right: 30px;
+  }
+  .card-tab-select::before{
+      content: "\f078";
+  position: absolute;
+  right: 45px;
+  font-family: "Font Awesome 7 Free";
+  font-weight: 900;
+  color: var(--c-mint-400);
+  }
+  .card-tab-select .card-selected{
+            font-size: var(--fs-18);
+    font-weight: var(--fw-400);
+    text-align: center;
+    line-height: 40px;
+    color: var(--c-333);
+    color: var(--c-mint-400);
+  }
+  .card-content1{
+
+    position: relative;
+    height: 40px;
+    align-items: center;
+  }
+  .card-content1>span{
+    font-size: var(--fs-20);
+    font-weight: var(--fw-400);
+    padding: 0;
+    height: 40px;
+  }
+.facilities-icons{
+  top: -2px;right: -20px;
+  flex-direction: column;
+  position: absolute;
+  background: #fff;
+  width: 156px;
+  z-index: 999;
+  border-radius: 20px;
+  box-shadow: 0 0 10px var(--c-black-25);
+  visibility: hidden;
+  opacity: 0;
+}
+.facilities-icons.active{
+   visibility: visible;
+  opacity: 1;
+}
+.facilities-icons .facilities-icon span{
+    font-size: var(--fs-18);
+  font-weight: var(--fw-400);
+}
+.facilities-icons .facilities-icon{
+  margin-bottom: 3px;
+  height: 40px;
+  padding: 0;
+  line-height: 40px;
+  width: 100%;
+  display: flex;
+  background: #fff;
+  align-items: center;
+  
+}
+.facilities-icon img{
+  display: none;
+}
+.card-content2{
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.card-content2 span{
+        font-size: var(--fs-20);
+    font-weight: var(--fw-400);
+  margin-left: 30px;
+  
+}
+.region-tab{
+  height: 40px;
+  width: 156px;
+  line-height: 40px;
+
+  margin-right: 10px;
+  font-size: var(--fs-18);
+  font-weight: var(--fw-400);
+}
+.region{
+  margin: 0;
+  gap: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+.region-tab-boxs{
+  left: 10%;
+}
+
+.form-tab{
+  height: 40px;
+  width: 156px;
+  line-height: 40px;
+
+  margin-right: 10px;
+  font-size: var(--fs-18);
+  font-weight: var(--fw-400);
+}
+.form{
+  margin: 0;
+  gap: 0;
+  width: 100%;
+  justify-content: space-around;
+}
+.form-tab-boxs{
+  width: 156px;
+  background: #fff;
+  left: 46%;top: 0;
+}
+.form-tab-box{
+  line-height: 40px;
+  height: 40px;
+  width: 156px;
+  background: #fff;
+}
+.period{
+  width: 80%;
+  height: 40px;
+  margin: 0 auto;
+}
+.period-tab{
+  height: 35px;
+  line-height: 35px;
+    font-size: var(--fs-18);
+  font-weight: var(--fw-400);
+}
+.personal{
+  display: flex;
+  align-items: center;
+  font-size: var(--fs-20);
+  font-weight: var(--fw-400);
+  position: relative;
+  justify-content: space-around;
+  
+}
+.personal span{
+  margin: 0;
+  margin-left: 40px;
+}
+.personal-tab{
+  margin: 0;
+    line-height: 40px;
+  height: 40px;
+  width: 156px;
+}
+.personal-tab-boxs{
+  width: 156px;
+  z-index: 999;
+  position: absolute;
+  top: 0;left: 180px;
+  border-radius: 20px;
+
+  background: #fff;
+  border: 1px solid var(--c-mint-400);
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+
+}
+.personal-tab-box{
+
+  height: 40px;
+  line-height: 40px;
+
+}
+.card-content4{
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+}
+.card-content4 span{
+  margin: 0;
+}
+#searchInput{
+  width: 300px;
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.category-card{
+  padding-bottom: 50px;
+}
+.search-condition{
+  width: 100%;
+}
+.search-condition p{
+  display: none;
+}
+#searchBtn{
+  width: 150px;
+  height: 50px;
+}
+#notice{
+  display: flex;
+}
+#notice thead{
+  display: none;
+}
+colgroup{
+  display: none;
+}
+#notice tr{
+  margin: 0;
+  display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  border: 1px solid var(--c-mint-400);
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  height: 230px;
+}
+
+td{
+  display: flex;
+  
+border: none;
+}
+td p{
+  display: none;
+}
+tr td:last-child {
+  position: absolute;
+  right: 5px;bottom: 5px;
+}
+td .notice-title{
+  padding: 0;
+  height: 70px;
+    display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2; /* 보여줄 줄 수 (예: 3줄) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.notice-pagination ol{
+  display: flex;gap: 5px;
+  padding: 10px;
+}
+.notice-pagination ol li a{
+  font-size: var(--fs-16);
+  font-weight: var(--fw-400);
+  color: var(--c-333);
+  width: 35px;
+  text-align: center;
+  padding: 3px;
+  display: inline-block;
+  border-radius: 50%;
+  transition: .3s;
+}
+#noResult{
+  border: 1px solid #000;
+  width: 300px;
+  font-size: var(--fs-24);
+  
+}
+.notice-pagination ol li a{
+  width: 20px;
+}
+   /* footer */
+  .footer-top {
+    flex-direction: column;
+    position: relative;
+    gap: 5px;
+  }
+
+  .footer-logo-box {
+    justify-content: space-between;
+  }
+
+  .footer-top-a li a {
+    font-size: var(--fs-12);
+
+  }
+
+  .footer-site-box-wrap {
+    position: absolute;
+    margin-left: 205px;
+    padding: 0;
+    bottom: -220px;
+    left: -210px;
+    font-size: var(--fs-16);
+    width: 150px;
+  }
+
+  .footer-site-box {}
+
+  .footer-site-box {
+    font-size: var(--fs-16);
+
+  }
+
+  #site {
+    top: -271px;
+  }
+
+  #site p {
+    font-size: var(--fs-16);
+  }
+
+  .footer-bottom {
+
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-bottom-text p {
+    font-size: var(--fs-12);
+    font-weight: var(--fw-200);
+    color: var(--c-333);
+  }
+
+  .footer-bottom-logo {
+
+    margin-left: 250px;
+  }
+}
+

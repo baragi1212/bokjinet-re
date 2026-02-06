@@ -1,0 +1,245 @@
+@media (max-width:768px) {
+body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .inner {
+    width: 360px;
+  }
+
+  nav {
+    display: none;
+  }
+/* 헤더 */
+  header {
+    background: #fff;
+  }
+
+  .header-right .login {
+    display: none;
+  }
+  .menu-wrap{
+    width: 100%;
+  }
+  .menu-links {
+    transition:.3s;
+    flex-direction: column;
+    margin-bottom: 0;
+    display: flex;
+    max-height: 0;
+
+    visibility: hidden;
+    opacity: 0;
+  }
+
+
+  .menu-links.active {
+    max-height: 1000px;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .menu-content .menu-accordion{
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 2px 0;
+    margin-right: 20px;
+    border-bottom: 1px solid var(--c-666);
+    color: var(--c-333);
+  }
+
+  .menu-accordion.active{
+    color: var(--c-red-400);
+  }
+  .menu-accordion.active::before {
+    transform: rotate(180deg);
+    color: var(--c-red-400);
+  }
+  .menu-accordion::before {
+    content: '\f078';
+    display: inline-block;
+    position: absolute;
+    font-family: "Font Awesome 7 Free";
+    transition: .3s;
+    right: 40px;
+    font-size: var(--fs-24);
+    color: var(--c-666);
+    font-weight: 900
+  }
+    .breadcrumb{
+    display: none;
+  }
+  /* 메인비주얼  */
+  .visual{
+    height: 600px;
+  }
+  .visual h1{
+    font-size: var(--fs-42);
+  }
+  .visual-text-box p{
+    font-size: var(--fs-20);
+  }
+  .visual-tab-select{
+    display: block;
+  }
+  .visual{
+    background: url(images/subpage-m-bg1.png) no-repeat center;
+    background-size: cover;
+  }
+  .visual-tabs{
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 360px;
+    opacity: 0;
+    visibility: hidden;
+    height: 280px;
+    z-index: 999;
+    box-shadow: 0 0 10px var(--c-black-25);
+    font-size: var(--fs-20);
+    font-weight: var(--fw-800);
+    border-radius: 10px;
+    justify-content: flex-start;
+  }
+  .visual-tabs.active{
+    opacity: 1;
+    visibility: visible;
+  }
+  .visual-tab{
+    border-radius: 20px;
+    font-size: var(--fs-20);
+    height: 40px;
+    width: 360px;
+    text-align: center;
+    line-height: 40px;
+    padding: 0;
+  }
+  .visual-content{
+    height: 40px;
+    position: absolute;
+    width: 360px;
+    bottom: -50px;
+  }
+  /* 메인섹션 */
+  .main h2{
+    font-size: var(--fs-42);
+  }
+  .main-card{
+    width: 100%;
+  }
+  .card-text p{
+    font-size: var(--fs-20);
+  }
+  .card-text span{
+    font-size: var(--fs-18);
+  }
+  .card-inp{
+    width: 330px;
+  }
+  /* 회원가입 */
+  .signup-cards{
+    gap: 20px;
+  }
+  .signup-card{
+    height: 170px;
+  }
+  .signup-card i{
+    font-size: 50px;
+  }
+  .signup-card-text p{
+    font-size: var(--fs-20);
+  }
+  .signup-card-text span{
+    font-size: var(--fs-14);
+  }
+  /* 아이디찾기 */
+  .findid-tabs{
+    height: 40px;
+    width: 140px;
+  }
+  .findid-tab{
+   line-height: 20px;
+    font-size: var(--fs-20);
+  
+  }
+
+  /* 비밀번호찾기 */
+  .ForgotPassword-tabs{
+    height: 40px;
+    width: 140px;
+  }
+  .ForgotPassword-tab{
+    line-height: 20px;
+    font-size: var(--fs-20);
+
+  }
+  
+  
+  .ForgotPassword-card-inp{
+    width: 330px;
+  }
+  /* 이용약관 */
+  .text-card{
+    overflow-y: scroll;
+    max-height: 500px;
+  }
+   /* footer */
+  .footer-top {
+    flex-direction: column;
+    position: relative;
+    gap: 5px;
+  }
+
+  .footer-logo-box {
+    justify-content: space-between;
+  }
+
+  .footer-top-a li a {
+    font-size: var(--fs-12);
+
+  }
+
+  .footer-site-box-wrap {
+    position: absolute;
+    margin-left: 205px;
+    padding: 0;
+    bottom: -220px;
+    left: -210px;
+    font-size: var(--fs-16);
+    width: 150px;
+  }
+
+  .footer-site-box {}
+
+  .footer-site-box {
+    font-size: var(--fs-16);
+
+  }
+
+  #site {
+    top: -271px;
+  }
+
+  #site p {
+    font-size: var(--fs-16);
+  }
+
+  .footer-bottom {
+
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-bottom-text p {
+    font-size: var(--fs-12);
+    font-weight: var(--fw-200);
+    color: var(--c-333);
+  }
+
+  .footer-bottom-logo {
+
+    margin-left: 250px;
+  }
+}
+

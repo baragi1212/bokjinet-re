@@ -1,0 +1,737 @@
+
+@media (max-width:768px) {
+
+  /* 공통영역 */
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    /* 어둡게 */
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+    z-index: 100;
+  }
+  
+  section {
+    margin-top: 100px;
+  }
+
+  body,
+  html {
+    overflow-x: hidden;
+  }
+
+  .inner {
+    width: 360px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .title {
+    font-size: var(--fs-30);
+    font-weight: var(--fw-800);
+    text-align: center;
+
+  }
+
+  .sub-title {
+    font-size: var(--fs-18);
+    font-weight: var(--fw-300);
+    text-align: center;
+    margin: 0 auto 10px;
+    width: 80%;
+  }
+  /* 포플 팝업 */
+  .portfolio-wrap{
+  width: 360px;
+  height: 650px;
+  flex-direction: column;
+  top: 170px;
+}
+
+.portfolio-text{
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.portfolio-text p{
+  font-size: var(--fs-16);
+  width: 100%;
+}
+.portfolio-text p span{
+  font-size: var(--fs-16);
+  font-weight: var(--fw-600);
+}
+
+.portfolio-img{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+.portfolio-img p{
+  text-align: center;
+}
+.portfolio-main-img{
+  display: none;
+}
+.portfolio-m-img{
+  margin: auto;
+  display: block;
+  height: 300px;
+}
+.portfolio-right{
+  width: 80%;
+  margin: auto;
+}
+
+.portfolio-right .fa-x{
+  font-size: 30px;
+  position: absolute;
+  top: 0;right: 0;
+}
+.portfolio-icon{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+.portfolio-icon i{
+  font-size: 30px;
+  color: var(--c-red-400);
+}
+.portfolio-icon p{
+  font-size: var(--fs-16);
+}
+  /* 헤더 */
+  header {
+    background: #fff;
+  }
+
+  .header-right .login {
+    display: none;
+  }
+  .menu-wrap{
+    width: 100%;
+  }
+  .menu-links {
+    transition:.3s;
+    flex-direction: column;
+    margin-bottom: 0;
+    display: flex;
+    max-height: 0;
+
+    visibility: hidden;
+    opacity: 0;
+  }
+
+
+  .menu-links.active {
+    max-height: 1000px;
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .menu-content .menu-accordion{
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 2px 0;
+    margin-right: 20px;
+    border-bottom: 1px solid var(--c-666);
+    color: var(--c-333);
+  }
+
+  .menu-accordion.active{
+    color: var(--c-red-400);
+  }
+  .menu-accordion.active::before {
+    transform: rotate(180deg);
+    color: var(--c-red-400);
+  }
+  .menu-accordion::before {
+    content: '\f078';
+    display: inline-block;
+    position: absolute;
+    font-family: "Font Awesome 7 Free";
+    transition: .3s;
+    right: 40px;
+    font-size: var(--fs-24);
+    color: var(--c-666);
+    font-weight: 900
+  }
+  /* 팝업창 */
+  .popup-wrap {
+  width: 380px;
+  top: 60%;
+  }
+
+  .mypopup-button-prev{
+    display: none;
+  }
+  .mypopup-button-next{
+    display: none;
+  }
+  #popupBtn{
+  font-size: var(--fs-30);
+  margin-top: 10px;
+  font-weight: var(--fw-500);
+  color: #fff;
+  cursor: pointer;
+}
+.popup-btn-box .popup-btn{
+  margin-right:130px;
+  margin-left: 10px;
+    font-size: var(--fs-30);
+  margin-top: 10px;
+  font-weight: var(--fw-500);
+  color: #fff;
+  cursor: pointer;
+}
+  /* 메인비주얼 */
+  .myvisual .visual-slide1 {
+    background: url(images/m-bg-1.png) no-repeat center;
+    background-size: cover;
+
+  }
+
+  .myvisual .visual-slide2 {
+    background: url(images/m-bg-2.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .myvisual .visual-slide3 {
+    background: url(images/m-bg-3.png) no-repeat center;
+    background-size: cover;
+  }
+
+  .myvisual .swiper-button-next {
+    display: none;
+  }
+
+  .myvisual .swiper-button-prev {
+    display: none;
+  }
+
+  .myvisual .swiper-pagination .swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: var(--c-666);
+  }
+
+  .myvisual .swiper-pagination .swiper-pagination-bullet-active {
+    width: 30px;
+    height: 15px;
+    border-radius: 10px;
+  }
+
+  .myvisual .text-box h1 {
+    font-size: var(--fs-30);
+    font-weight: var(--fw-800);
+    margin-top: 150px;
+    line-height: 30px;
+  }
+
+  .myvisual .text-box p {
+    font-size: var(--fs-18);
+    font-weight: var(--fw-400);
+    width: 100%;
+  }
+
+  .myvisual .swiper-slide:nth-child(2) .text-box p {
+    width: 83%;
+  }
+
+  /* 퀵아이콘 */
+  .quick-icons {
+    flex-wrap: wrap;
+    margin-top: 50px;
+  }
+
+  .quick-icon a {
+    width: 80px;
+  }
+
+  /* 복지소식 */
+  .tidings::before {
+    left: -150px;
+    top: 70px;
+  }
+
+  .tidings .sub-title {
+    width: 70%;
+  }
+
+  .tidings .title span::before {
+    content: '';
+    display: block;
+    right: -20px;
+    top: -10px;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: url(images/title-item-1.png) center;
+    background-size: cover;
+  }
+
+  .myTidings-big-card .big-card-text p {
+    font-size: var(--fs-20);
+
+    font-weight: var(--fw-400);
+  }
+
+  .myTidings-big-card .big-card-text span {
+    font-size: var(--fs-18);
+    font-weight: var(--fw-100);
+
+  }
+
+  .myTidings-card {
+    height: 130px;
+  }
+
+  .myTidings-card .card-text p {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+
+  }
+
+  .myTidings-card .card-text span {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-100);
+    padding: 10px;
+  }
+
+  .arrow-box {
+    display: none;
+  }
+
+  .myTidings-pagination {
+    display: block;
+  }
+
+  /* 참여 */
+
+  .join::before {
+    right: -480px;
+    top: -300px;
+
+  }
+
+  .join::after {
+    top: 10%;
+    left: -20%;
+  }
+
+  .join-arrow-box {
+    display: none;
+  }
+
+  .join-content {
+    flex-direction: column;
+    gap: 30px;
+    height: 450px;
+
+  }
+
+  .join-pagination {
+    position: absolute;
+
+    display: block;
+  }
+
+  .join-tabs {
+    width: 300px;
+    flex: 0;
+    margin: auto;
+    display: flex;
+    background: #fff;
+    padding: 3px;
+    border-radius: 30px;
+    gap: 10px;
+    box-shadow: 0 0 10px var(--c-black-25);
+  }
+
+  .join-tabs .join-tab {
+    margin-bottom: 0;
+    margin: 0 auto;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    font-size: var(--fs-20);
+    font-weight: var(--fw-400);
+
+  }
+
+  .join-slide-wrap {
+    padding-bottom: 40px;
+    height: 30px;
+  }
+
+  .join-slide {
+    width: 360px;
+    padding-bottom: 20px !important;
+  }
+
+  .join-cards {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .join-card .join-card-title {
+    font-size: var(--fs-18);
+  }
+
+  .join-card span {
+    font-size: var(--fs-15);
+  }
+
+  /* 이벤트 */
+  .event .sub-title {
+    width: 60%;
+  }
+
+  .event-arrow-box {
+    display: none;
+  }
+
+  .event::before {
+    right: -50px;
+  }
+
+  .event::after {
+    top: 35%;
+    left: -380px;
+  }
+
+  .event-pagination {
+    display: block;
+  }
+
+  /* 복지한눈에 */
+  .welfare {
+    height: 450px;
+  }
+
+  .welfare-arrow-left {
+    display: none;
+  }
+
+  .welfare-arrow-right {
+    display: none;
+  }
+
+  .welfare-tabs {
+    flex-direction: column;
+    width: 300px;
+    position: absolute;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+    background: #fff;
+    border-radius: 20px;
+    opacity: 0;
+    padding: 0;
+    visibility: hidden;
+
+  }
+
+  .welfare-tab {
+    border-radius: 20px;
+    text-align: center;
+    font-size: var(--fs-20);
+    height: 50px;
+    padding: 0;
+    line-height: 50px;
+  }
+
+  .welfare-tabs.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .welfare-tab-select {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .myWelfare {
+    height: 330px;
+  }
+
+  .welfare {
+    padding-bottom: 100px;
+  }
+
+  .welfare .welfare-pagination {
+    display: block;
+  }
+
+  /* 일자리 */
+  .job .sub-title {
+    width: 60%;
+  }
+
+  .job::before {
+    right: -200px;
+  }
+
+  .job .title span::before {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    right: -10px;
+    top: -15px;
+  }
+
+  .job-arrow-box {
+    display: none;
+  }
+
+  .job-content {
+    flex-direction: column;
+    gap: 20px;
+    height: 400px;
+  }
+
+  .job-tabs {
+    flex-direction: row;
+    background: #D7F3EE;
+    flex: 0;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    margin: auto;
+  }
+
+  .job-tab {
+    box-shadow: none;
+    width: 100px;
+    background: #D7F3EE;
+  }
+
+  .job .myJob {
+    width: 360px;
+
+  }
+
+  .job-card-top .job-top-left {
+    font-size: var(--fs-18);
+    font-weight: var(--fw-600);
+  }
+
+  .job-card-top .job-top-right {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-300);
+  }
+
+  .job-card-title {
+    font-size: var(--fs-18);
+    font-weight: var(--fw-400);
+  }
+
+  .job-card-apparatus {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-300);
+  }
+
+  .job-card-location {
+    font-size: var(--fs-16);
+    font-weight: var(--fw-200);
+  }
+
+  .job-card-day {
+    font-size: 12px;
+    font-weight: var(--fw-100);
+  }
+
+  .job-pagination {
+    display: block;
+  }
+
+  /* 협의회 */
+  .council-title .title span::before{
+  width: 20px;height: 20px;
+  background-size: cover;
+  right: -15px;top: -20px;
+}
+  .council::before {
+    top: -70px;
+    left: -100px;
+  }
+
+  .council .inner {
+    flex-direction: column;
+  }
+
+  .council-content {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  /* 안내 */
+  .guide {
+    padding-bottom: 150px;
+
+  }
+
+  .guide::before {
+    right: -80px;
+    top: -50px;
+  }
+
+  .guide-cards {
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .guide-card {
+    width: 360px;
+    height: 170px;
+  }
+
+  .guide-img {
+    margin-right: 10px;
+  }
+
+  .guide-img img {
+    height: 70%;
+    margin-top: 20px;
+  }
+
+  .guide-card h3 {
+    margin-left: 20px;
+    font-size: var(--fs-30);
+    margin-bottom: 10px;
+    line-height: 30px;
+  }
+
+  .guide-card p {
+    margin-left: 20px;
+    line-height: 16px;
+
+    width: 70%;
+    margin-bottom: 10px;
+    font-size: var(--fs-16);
+    font-weight: var(--fw-300);
+    color: var(--c-555);
+  }
+
+  .guide-card button {
+    margin-left: 20px;
+    width: 80px;
+    height: 35px;
+    background: #fff;
+    border-radius: 30px;
+    font-size: var(--fs-16);
+    font-weight: var(--fw-500);
+    color: var(--c-333);
+    margin-top: 0;
+  }
+
+  /* 시도협의회사이트 */
+  .site .inner {
+    flex-direction: column;
+
+    height: 20px;
+    gap: 20px;
+  }
+
+  .site-title {
+    display: none;
+
+  }
+
+  .mySite {
+    width: 360px;
+  }
+
+  .mySite .swiper-slide a {
+    gap: 5px;
+    align-items: center;
+  }
+
+  .mySite .swiper-slide img {
+    height: 23px;
+  }
+
+  .mySite .swiper-slide p {
+    font-size: var(--fs-14);
+    font-weight: var(--fw-300);
+
+  }
+
+  /* footer */
+  .footer-top {
+    flex-direction: column;
+    position: relative;
+    gap: 5px;
+  }
+
+  .footer-logo-box {
+    justify-content: space-between;
+  }
+
+  .footer-top-a li a {
+    font-size: var(--fs-12);
+
+  }
+
+  .footer-site-box-wrap {
+    position: absolute;
+    margin-left: 205px;
+    padding: 0;
+    bottom: -220px;
+    left: -210px;
+    font-size: var(--fs-16);
+    width: 150px;
+  }
+
+  .footer-site-box {}
+
+  .footer-site-box {
+    font-size: var(--fs-16);
+
+  }
+
+  #site {
+    top: -271px;
+  }
+
+  #site p {
+    font-size: var(--fs-16);
+  }
+
+  .footer-bottom {
+
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-bottom-text p {
+    font-size: var(--fs-12);
+    font-weight: var(--fw-200);
+    color: var(--c-333);
+  }
+
+  .footer-bottom-logo {
+
+    margin-left: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .visual .swiper-slide {
+    height: 700px;
+  }
+}
