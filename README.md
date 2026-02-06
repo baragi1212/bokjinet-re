@@ -7,7 +7,7 @@
 
 ## Link
 -바로가기 (web-site) https://baragi1212.github.io/bokjinet-re/ <br>
--기획서 (figma) http://abc.co.kr <br>
+-기획서 (figma) https://www.figma.com/design/dpyMRV8t9UDlRsmap3Prr7/%EB%B3%B5%EC%A7%80%EB%84%B7%EB%A6%AC%EB%89%B4%EC%96%BC-%EB%B0%95%EC%83%81%EA%B1%B4?node-id=1209-773&t=JAfrumycc44ZeTHk-1 <br>
 -디자인 시안 (figma) https://www.figma.com/design/dpyMRV8t9UDlRsmap3Prr7/%EB%B3%B5%EC%A7%80%EB%84%B7%EB%A6%AC%EB%89%B4%EC%96%BC-%EB%B0%95%EC%83%81%EA%B1%B4?node-id=130-2379&t=JAfrumycc44ZeTHk-1 <br>
 
 ## 📺 프로젝트 미리보기
