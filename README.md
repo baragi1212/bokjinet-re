@@ -8,8 +8,12 @@
 ## 📺 프로젝트 미리보기
 | 메인 페이지 |
 | :---: |
-| ![Main](https://via.placeholder.com/400x250?text=Main+Page) |
-| **메인 포스터 기반 정보** |
+| ![Main](https://private-user-images.githubusercontent.com/256000008/545953342-f48608ef-1c2f-46d7-9721-b138cd4d5b34.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzAzNDU4NzYsIm5iZiI6MTc3MDM0NTU3NiwicGF0aCI6Ii8yNTYwMDAwMDgvNTQ1OTUzMzQyLWY0ODYwOGVmLTFjMmYtNDZkNy05NzIxLWIxMzhjZDRkNWIzNC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwNlQwMjM5MzZaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YWY1N2IwNTQyNjEwZWQ5MDk2ODc5NjM2OTAzMTI0M2U4ODY0NDg4MzVkNGMxM2ZkMjFhMjAwZjM3N2M5ZTMzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.JI2O0s-eeHAWIaSUIp_rRHUXVi1HnHhpa4aWh2cd9q4) |
+
+| 반응형 |
+| :---: |
+| ![Main](https://private-user-images.githubusercontent.com/256000008/545953530-ec84426e-d9d1-49c8-8356-373c6ba88336.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NzAzNDU4ODUsIm5iZiI6MTc3MDM0NTU4NSwicGF0aCI6Ii8yNTYwMDAwMDgvNTQ1OTUzNTMwLWVjODQ0MjZlLWQ5ZDEtNDljOC04MzU2LTM3M2M2YmE4ODMzNi5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjYwMjA2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI2MDIwNlQwMjM5NDVaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1iM2I5OGFlMjFjOTI4YjY0M2JhZjlkNTAxNDQyODY0MmRmNmI3ODM2Y2YwMjNlYTc1NTdkYjIxNDQyOTJiYjk2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.mxvJYs096MIUilafg5UfGpPW3iXg7FpNakNleeLSAvY) |
+
 
 ---
 
@@ -27,7 +31,7 @@
 * **포스터 큐레이션:** 단순 텍스트가 아닌 메인 페이지의 포스터와 상세 정보를 결합하여 시각적 전달력을 극대화했습니다.
 
 ### 4️⃣ 푸터(Footer) 최적화
-* **관련 사이트 정리:** 기존의 어지러웠던 3줄 구성의 정렬하였습니다
+* **관련 사이트 정리:** 기존의 어지러웠던 3줄 구성을 1줄로 정렬하였습니다
 
 ---
 
